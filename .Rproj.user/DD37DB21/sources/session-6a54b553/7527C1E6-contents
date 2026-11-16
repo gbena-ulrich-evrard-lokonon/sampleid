@@ -1,0 +1,25 @@
+options(
+  repos = c(CRAN = "https://cloud.r-project.org")
+)
+
+setwd(
+  "C:/Users/Admin/Desktop/innovation/DevPackagesR/sampleid"
+)
+
+devtools::document()
+
+
+package_file <- devtools::build()
+package_file
+
+test_lib <- tempfile("sampleid_lib_")
+
+dir.create(test_lib)
+
+install.packages(
+  package_file,
+  lib = test_lib,
+  repos = "https://cloud.r-project.org",
+  type = "source",
+  dependencies = NA
+)

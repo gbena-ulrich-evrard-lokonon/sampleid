@@ -1,0 +1,27 @@
+{
+    "id": "018E1500",
+    "path": "C:/Users/Admin/Desktop/innovation/DevPackagesR/sampleid/tests/testthat/test-read_sample_ids.R",
+    "project_path": "tests/testthat/test-read_sample_ids.R",
+    "type": "r_source",
+    "hash": "3506910702",
+    "contents": "",
+    "dirty": false,
+    "created": 1794838885264.0,
+    "source_on_save": false,
+    "relative_order": 24,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "126,0",
+        "scrollLine": "108"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1794857248,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1794857248797,
+    "read_only": false,
+    "read_only_alternatives": []
+}

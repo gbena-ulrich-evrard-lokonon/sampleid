@@ -1,0 +1,33 @@
+Package: sampleid
+Type: Package
+Title: Biological Sample Identifier Management and Validation
+Version: 0.1.0
+Authors@R:
+    person("Gbèna Ulrich Evrard", "Lokonon",
+           email = "ulrichlokn@gmail.com",
+           role = c("aut", "cre"))
+Description: Provides a collection of tools for the systematic
+    management, standardization, validation, and harmonization of
+    biological sample identifiers across datasets and research
+    workflows. Designed for applications in genomics, metagenomics,
+    metatranscriptomics, transcriptomics, and other data-intensive
+    biological disciplines, the package supports identifier
+    normalization, duplicate identification, collision detection,
+    sample matching, consistency assessment, cross-dataset
+    comparison, and sample reconciliation. Additional utilities
+    facilitate sample table import, data integrity assessment,
+    and quality reporting. By helping detect identifier
+    inconsistencies and potential sample misidentification,
+    sampleid aims to strengthen data integrity, traceability,
+    interoperability, and reproducibility in biological research.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    readr,
+    readxl
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1

@@ -1,0 +1,60 @@
+files <- list.files("R", pattern = "\\.R$", full.names = TRUE)
+
+for (f in files) {
+  cat("\n---", f, "---\n")
+  print(grep("@export|@import|@importFrom",
+             readLines(f),
+             value = TRUE))
+}
+list.files("R")
+
+read.dcf("DESCRIPTION")[1,
+                        c("Package", "Version", "Imports", "Suggests",
+                          "Roxygen", "RoxygenNote")]
+
+
+for (f in files) {
+  cat("\n\n==========", f, "==========\n")
+  cat(readLines(f, warn = FALSE), sep = "\n")
+}
+
+
+desc <- read.dcf("DESCRIPTION")
+
+colnames(desc)
+
+
+as.list(desc[1, ])
+
+
+dir.create(
+  "dev",
+  showWarnings = FALSE
+)
+
+temp_files <- list.files(
+  "R",
+  pattern = "^temporaire_.*\\.R$",
+  full.names = TRUE
+)
+
+file.copy(
+  temp_files,
+  "dev",
+  overwrite = TRUE
+)
+
+file.remove(temp_files)
+
+#ffff
+file.copy(
+  "R/verifi.R",
+  "dev/verifi.R",
+  overwrite = TRUE
+)
+
+file.remove("R/verifi.R")
+
+file.remove("R/hello.R")
+
+list.files("R")

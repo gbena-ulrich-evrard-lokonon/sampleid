@@ -1,0 +1,5 @@
+git config --global user.name "Gbèna Ulrich Evrard Lokonon"
+
+git config --global user.email "ulrichlokn@gmail.com"
+
+git config --global --list
