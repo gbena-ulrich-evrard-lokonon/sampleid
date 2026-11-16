@@ -1,10 +1,10 @@
-sampleid
+**sampleid**
 
 Biological Sample Identifier Management and Validation
 
 "sampleid" is an R package designed to improve the management, standardization, validation, and harmonization of biological sample identifiers across research datasets and analytical workflows.
 
-Overview
+**Overview**
 
 Accurate sample identification is essential for reliable biological data analysis. Inconsistencies in sample identifiers can lead to incorrect sample matching, duplicate records, data integration errors, and potentially misleading scientific conclusions.
 
@@ -75,27 +75,25 @@ The function supports:
 
 TSV files are not supported by "read_sample_ids()".
 
-2. Normalize sample identifiers
+**2. Normalize sample identifiers**
 
 Use "normalize_ids()" to standardize sample identifiers before comparing or integrating datasets.
 
-# Example to be completed with the package's
-# normalization options.
+#Example to be completed with the package's normalization options.
 
-3. Detect duplicate identifiers
+**3. Detect duplicate identifiers**
 
 Use "check_duplicates()" to identify repeated sample identifiers.
 
-# Example to be completed with the function's
-# documented input and output.
+#Example to be completed with the function's documented input and output.
 
-4. Detect identifier collisions
+**4. Detect identifier collisions**
 
 Use "check_collisions()" to identify distinct original identifiers that share the same normalized identifier.
 
 This is particularly important when standardizing identifiers from different biological datasets.
 
-5. Assess identifier consistency
+**5. Assess identifier consistency**
 
 Use "check_consistency()" to identify missing identifiers, empty values, and whitespace-related inconsistencies.
 
@@ -162,6 +160,5 @@ Citation
 
 If you use "sampleid" in scientific research, please cite the package using its official citation information, which will be provided upon publication.
 
----
 
-sampleid — Reliable Biological Sample Identification Across Research Datasets.
+sampleid - Reliable Biological Sample Identification Across Research Datasets.
