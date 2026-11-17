@@ -3,7 +3,7 @@
 <p align="center">
   <img src="man/figures/logo.jpeg"
        alt="sampleid logo"
-       width="300">
+       width="180">
 </p>
 
 <p align="center">
