@@ -1,12 +1,22 @@
 **sampleid**
 
 <p align="center">
-  <img src=""C:/Users/Admin/Desktop/innovation/DevPackagesR/sampleid/logo.jpeg"" alt="sampleid logo" width="300">
-</p><p align="center">
+  <img src="man/figures/logo.jpeg"
+       alt="sampleid logo"
+       width="300">
+</p>
+
+<p align="center">
   <strong>Biological Sample Identifier Management and Validation</strong>
-</p><p align="center">
+</p>
+
+<p align="center">
   Reliable Biological Sample Identification Across Research Datasets
-</p><!-- BADGES: Reserve this space for CRAN, R-universe, GitHub Actions and license badges -->---
+</p>
+
+<!-- BADGES: Reserve this space for CRAN, R-universe, GitHub Actions and license badges -->
+
+---
 
 **Overview**
 
@@ -23,18 +33,26 @@ The package aims to strengthen data integrity, traceability, and reproducibility
 **Key Features**
 
 **- Identifier normalization:** Standardize biological sample identifiers.
+
 **- Duplicate detection:** Identify repeated sample identifiers.
+
 **- Collision detection:** Detect distinct original identifiers that become identical after normalization.
+
 **- Consistency assessment:** Identify missing values, empty identifiers, and whitespace inconsistencies.
+
 **- Sample matching:** Match sample identifiers across datasets.
+
 **- Cross-dataset comparison:** Compare identifier sets and identify discrepancies.
+
 **- Sample reconciliation:** Support the harmonization of sample identifiers across datasets.
+
 **- Quality reporting:** Generate reports describing identifier quality.
+
 **- Sample data import:** Extract sample identifiers and read sample tables.
 
 **Installation**
 
-*Install from GitHub*
+**Install from GitHub**
 
 Install the development version directly from GitHub:
 
@@ -44,29 +62,68 @@ remotes::install_github(
   "gbena-ulrich-evrard-lokonon/sampleid"
 )
 
-*Install from the local source*
+**Install from the local source**
 
 During development, install the package from its project directory:
 
 devtools::install()
 
-*Load the package*
+**Load the package**
 
 library(sampleid)
 
-*Available Functions*
+**Available Functions**
 
-*Function*| *Purpose*
-"normalize_ids()"| Standardize sample identifiers.
-"check_duplicates()"| Identify duplicate identifiers.
-"check_collisions()"| Detect normalization-related identifier collisions.
-"check_consistency()"| Assess identifier consistency.
-"compare_id_sets()"| Compare sample identifier sets.
-"match_samples()"| Match sample identifiers across datasets.
-"reconcile_samples()"| Reconcile sample identifiers.
-"id_quality_report()"| Generate identifier quality reports.
-"read_sample_ids()"| Extract sample identifiers from supported files.
-"read_sample_table()"| Import sample tables.
+<table>
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>normalize_ids()</code></td>
+      <td>Standardize sample identifiers.</td>
+    </tr>
+    <tr>
+      <td><code>check_duplicates()</code></td>
+      <td>Identify duplicate identifiers.</td>
+    </tr>
+    <tr>
+      <td><code>check_collisions()</code></td>
+      <td>Detect normalization-related identifier collisions.</td>
+    </tr>
+    <tr>
+      <td><code>check_consistency()</code></td>
+      <td>Assess identifier consistency.</td>
+    </tr>
+    <tr>
+      <td><code>compare_id_sets()</code></td>
+      <td>Compare sample identifier sets.</td>
+    </tr>
+    <tr>
+      <td><code>match_samples()</code></td>
+      <td>Match sample identifiers across datasets.</td>
+    </tr>
+    <tr>
+      <td><code>reconcile_samples()</code></td>
+      <td>Reconcile sample identifiers.</td>
+    </tr>
+    <tr>
+      <td><code>id_quality_report()</code></td>
+      <td>Generate identifier quality reports.</td>
+    </tr>
+    <tr>
+      <td><code>read_sample_ids()</code></td>
+      <td>Extract sample identifiers from supported files.</td>
+    </tr>
+    <tr>
+      <td><code>read_sample_table()</code></td>
+      <td>Import sample tables.</td>
+    </tr>
+  </tbody>
+</table>
 
 **Quick Start**
 
@@ -111,7 +168,7 @@ Detailed usage examples for these functions will be added as the package documen
 
 Scientific Applications
 
-*sampleid* is designed for biological research workflows involving:
+**sampleid** is designed for biological research workflows involving:
 
 - Genomics and comparative genomics
 - Metagenomics and shotgun sequencing
@@ -131,7 +188,7 @@ By providing tools for identifier validation, normalization, duplicate detection
 
 **Development and Testing**
 
-*sampleid* is developed in R and follows a structured testing approach using the "testthat" framework.
+**sampleid** is developed in R and follows a structured testing approach using the "testthat" framework.
 
 Run the automated tests with:
 
@@ -152,13 +209,13 @@ Suggested
 
 - "testthat" (version 3.0.0 or later)
 
-*License*
+**License**
 
 This package is distributed under the MIT License.
 
 See the "LICENSE" file for details.
 
-*Author*
+**Author**
 
 Gbèna Ulrich Evrard Lokonon
 
@@ -166,17 +223,16 @@ Molecular Biologist & Bioinformatician
 
 Email: ulrichlokn@gmail.com
 
-*Contributions*
+**Contributions**
 
 Suggestions, bug reports, and contributions are welcome.
 
 Please use the "GitHub Issues" (https://github.com/gbena-ulrich-evrard-lokonon/sampleid/issues) page to report bugs, suggest improvements, or discuss potential features.
 
-*Citation*
+**Citation**
 
 If you use sampleid in scientific research, please cite the package using its official citation information, which will be provided upon publication.
 
----
 
 <p align="center">
   <strong>sampleid</strong><br>
