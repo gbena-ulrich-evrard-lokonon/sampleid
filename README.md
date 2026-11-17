@@ -1,13 +1,15 @@
 **sampleid**
 
 <p align="center">
-  <img src="man/figures/logo.jpeg"
+  <img src="man/Figures/logo.jpeg"
        alt="sampleid logo"
-       width="180">
+       width="200">
 </p>
 
+<h1 align="center">sampleid</h1>
+
 <p align="center">
-  <strong>Biological Sample Identifier Management and Validation</strong>
+  Biological Sample Identifier Management and Validation
 </p>
 
 <p align="center">
